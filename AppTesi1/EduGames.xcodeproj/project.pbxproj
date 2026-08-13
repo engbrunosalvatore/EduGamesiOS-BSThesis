@@ -1,0 +1,724 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F1278B229F9212600B50659 /* areaEsercitativa.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3F1278B129F9212600B50659 /* areaEsercitativa.gif */; };
+		3F3C9F8829E6BF0F001D1AAA /* CloudsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C9F8729E6BF0F001D1AAA /* CloudsView.swift */; };
+		3F3C9F8A29E6BF22001D1AAA /* GroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C9F8929E6BF22001D1AAA /* GroundView.swift */; };
+		3F3C9F8C29E6BF34001D1AAA /* RexyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C9F8B29E6BF34001D1AAA /* RexyView.swift */; };
+		3F3C9F8E29E6BF55001D1AAA /* OpponentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C9F8D29E6BF55001D1AAA /* OpponentsView.swift */; };
+		3F3C9F9029E6BF62001D1AAA /* RexyCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C9F8F29E6BF62001D1AAA /* RexyCases.swift */; };
+		3F3C9F9229E6BF77001D1AAA /* OpponentsCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C9F9129E6BF77001D1AAA /* OpponentsCases.swift */; };
+		3F3C9F9429E6BF93001D1AAA /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C9F9329E6BF93001D1AAA /* GameView.swift */; };
+		3F53560E29E17D2E00F7C80C /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F53560D29E17D2E00F7C80C /* QuizView.swift */; };
+		3F53561029E1909500F7C80C /* Monster2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F53560F29E1909500F7C80C /* Monster2.png */; };
+		3F64C95629E0B20700C5F166 /* AppTesi1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F64C95529E0B20700C5F166 /* AppTesi1App.swift */; };
+		3F64C95829E0B20700C5F166 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F64C95729E0B20700C5F166 /* ContentView.swift */; };
+		3F64C95A29E0B20800C5F166 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F64C95929E0B20800C5F166 /* Assets.xcassets */; };
+		3F64C95D29E0B20800C5F166 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F64C95C29E0B20800C5F166 /* Preview Assets.xcassets */; };
+		3F64C96729E0B20800C5F166 /* AppTesi1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F64C96629E0B20800C5F166 /* AppTesi1Tests.swift */; };
+		3F64C97129E0B20800C5F166 /* AppTesi1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F64C97029E0B20800C5F166 /* AppTesi1UITests.swift */; };
+		3F64C97329E0B20800C5F166 /* AppTesi1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F64C97229E0B20800C5F166 /* AppTesi1UITestsLaunchTests.swift */; };
+		3F64C98029E0B22E00C5F166 /* GifImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F64C97F29E0B22E00C5F166 /* GifImage.swift */; };
+		3F64C98229E0B24900C5F166 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F64C98129E0B24900C5F166 /* ProgressBar.swift */; };
+		3F64C98429E0B26900C5F166 /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F64C98329E0B26900C5F166 /* Quiz.swift */; };
+		3F64C98629E0B29300C5F166 /* HorizontalDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F64C98529E0B29300C5F166 /* HorizontalDatePicker.swift */; };
+		3F64C98829E0B2DA00C5F166 /* QuizHomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F64C98729E0B2DA00C5F166 /* QuizHomePageView.swift */; };
+		3F64C98A29E0B2E900C5F166 /* Monster1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F64C98929E0B2E900C5F166 /* Monster1.png */; };
+		3F64C98C29E0B2F000C5F166 /* mostro2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3F64C98B29E0B2F000C5F166 /* mostro2.gif */; };
+		3F7B270E2A0246DA00C57E4B /* sfondo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7B270D2A0246DA00C57E4B /* sfondo.png */; };
+		3F7EABE629FA5D630066ADEE /* welcome.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3F7EABE529FA5D630066ADEE /* welcome.gif */; };
+		3FCF1C5F29E7DE52002D4FFC /* Principale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCF1C5E29E7DE52002D4FFC /* Principale.swift */; };
+		3FCF1C6329E7DED6002D4FFC /* MathExercisesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCF1C6229E7DED6002D4FFC /* MathExercisesView.swift */; };
+		3FCF1C6529E7DEF9002D4FFC /* GeometryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCF1C6429E7DEF9002D4FFC /* GeometryView.swift */; };
+		3FCF1C6729E7DF11002D4FFC /* EnglishExercisesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCF1C6629E7DF11002D4FFC /* EnglishExercisesView.swift */; };
+		3FCF1C6929E7DF33002D4FFC /* HangmanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCF1C6829E7DF33002D4FFC /* HangmanView.swift */; };
+		3FCF1C6B29E7DF55002D4FFC /* TrisGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCF1C6A29E7DF55002D4FFC /* TrisGameView.swift */; };
+		3FCF1C6D29E7DF76002D4FFC /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCF1C6C29E7DF76002D4FFC /* DrawView.swift */; };
+		3FCF1C6F29E7DFBB002D4FFC /* hangman.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FCF1C6E29E7DFBB002D4FFC /* hangman.xcassets */; };
+		3FCF1C7129E7DFCD002D4FFC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FCF1C7029E7DFCD002D4FFC /* Images.xcassets */; };
+		3FCF1C7529E7DFE5002D4FFC /* correct.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3FCF1C7229E7DFE5002D4FFC /* correct.gif */; };
+		3FCF1C7629E7DFE5002D4FFC /* wrong.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3FCF1C7329E7DFE5002D4FFC /* wrong.gif */; };
+		EC5E00BC29FD37A20019CB64 /* WordMatchImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC5E00BB29FD37A20019CB64 /* WordMatchImages.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F64C96329E0B20800C5F166 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F64C94A29E0B20700C5F166 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F64C95129E0B20700C5F166;
+			remoteInfo = AppTesi1;
+		};
+		3F64C96D29E0B20800C5F166 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F64C94A29E0B20700C5F166 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F64C95129E0B20700C5F166;
+			remoteInfo = AppTesi1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F1278B129F9212600B50659 /* areaEsercitativa.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = areaEsercitativa.gif; sourceTree = "<group>"; };
+		3F3C9F8729E6BF0F001D1AAA /* CloudsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudsView.swift; sourceTree = "<group>"; };
+		3F3C9F8929E6BF22001D1AAA /* GroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroundView.swift; sourceTree = "<group>"; };
+		3F3C9F8B29E6BF34001D1AAA /* RexyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RexyView.swift; sourceTree = "<group>"; };
+		3F3C9F8D29E6BF55001D1AAA /* OpponentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpponentsView.swift; sourceTree = "<group>"; };
+		3F3C9F8F29E6BF62001D1AAA /* RexyCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RexyCases.swift; sourceTree = "<group>"; };
+		3F3C9F9129E6BF77001D1AAA /* OpponentsCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpponentsCases.swift; sourceTree = "<group>"; };
+		3F3C9F9329E6BF93001D1AAA /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		3F53560D29E17D2E00F7C80C /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		3F53560F29E1909500F7C80C /* Monster2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Monster2.png; sourceTree = "<group>"; };
+		3F64C95229E0B20700C5F166 /* EduGames.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EduGames.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F64C95529E0B20700C5F166 /* AppTesi1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTesi1App.swift; sourceTree = "<group>"; };
+		3F64C95729E0B20700C5F166 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3F64C95929E0B20800C5F166 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F64C95C29E0B20800C5F166 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3F64C96229E0B20800C5F166 /* EduGamesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EduGamesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F64C96629E0B20800C5F166 /* AppTesi1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTesi1Tests.swift; sourceTree = "<group>"; };
+		3F64C96C29E0B20800C5F166 /* EduGamesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EduGamesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F64C97029E0B20800C5F166 /* AppTesi1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTesi1UITests.swift; sourceTree = "<group>"; };
+		3F64C97229E0B20800C5F166 /* AppTesi1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTesi1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3F64C97F29E0B22E00C5F166 /* GifImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifImage.swift; sourceTree = "<group>"; };
+		3F64C98129E0B24900C5F166 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		3F64C98329E0B26900C5F166 /* Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
+		3F64C98529E0B29300C5F166 /* HorizontalDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalDatePicker.swift; sourceTree = "<group>"; };
+		3F64C98729E0B2DA00C5F166 /* QuizHomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizHomePageView.swift; sourceTree = "<group>"; };
+		3F64C98929E0B2E900C5F166 /* Monster1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Monster1.png; sourceTree = "<group>"; };
+		3F64C98B29E0B2F000C5F166 /* mostro2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = mostro2.gif; sourceTree = "<group>"; };
+		3F7B270D2A0246DA00C57E4B /* sfondo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sfondo.png; sourceTree = "<group>"; };
+		3F7EABE529FA5D630066ADEE /* welcome.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = welcome.gif; sourceTree = "<group>"; };
+		3FCF1C5E29E7DE52002D4FFC /* Principale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Principale.swift; sourceTree = "<group>"; };
+		3FCF1C6229E7DED6002D4FFC /* MathExercisesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathExercisesView.swift; sourceTree = "<group>"; };
+		3FCF1C6429E7DEF9002D4FFC /* GeometryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryView.swift; sourceTree = "<group>"; };
+		3FCF1C6629E7DF11002D4FFC /* EnglishExercisesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnglishExercisesView.swift; sourceTree = "<group>"; };
+		3FCF1C6829E7DF33002D4FFC /* HangmanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangmanView.swift; sourceTree = "<group>"; };
+		3FCF1C6A29E7DF55002D4FFC /* TrisGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrisGameView.swift; sourceTree = "<group>"; };
+		3FCF1C6C29E7DF76002D4FFC /* DrawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
+		3FCF1C6E29E7DFBB002D4FFC /* hangman.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = hangman.xcassets; sourceTree = "<group>"; };
+		3FCF1C7029E7DFCD002D4FFC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3FCF1C7229E7DFE5002D4FFC /* correct.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = correct.gif; sourceTree = "<group>"; };
+		3FCF1C7329E7DFE5002D4FFC /* wrong.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = wrong.gif; sourceTree = "<group>"; };
+		EC5E00BB29FD37A20019CB64 /* WordMatchImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = WordMatchImages.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F64C94F29E0B20700C5F166 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F64C95F29E0B20800C5F166 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F64C96929E0B20800C5F166 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F1278AF29F914C600B50659 /* RexyGame */ = {
+			isa = PBXGroup;
+			children = (
+				3F3C9F9329E6BF93001D1AAA /* GameView.swift */,
+				3F3C9F8929E6BF22001D1AAA /* GroundView.swift */,
+				3F3C9F8B29E6BF34001D1AAA /* RexyView.swift */,
+				3F3C9F8F29E6BF62001D1AAA /* RexyCases.swift */,
+				3F3C9F8729E6BF0F001D1AAA /* CloudsView.swift */,
+				3F3C9F8D29E6BF55001D1AAA /* OpponentsView.swift */,
+				3F3C9F9129E6BF77001D1AAA /* OpponentsCases.swift */,
+			);
+			path = RexyGame;
+			sourceTree = "<group>";
+		};
+		3F1278B029F9150200B50659 /* Catalogo */ = {
+			isa = PBXGroup;
+			children = (
+				3FCF1C5E29E7DE52002D4FFC /* Principale.swift */,
+				3FCF1C6229E7DED6002D4FFC /* MathExercisesView.swift */,
+				3FCF1C6429E7DEF9002D4FFC /* GeometryView.swift */,
+				3FCF1C6629E7DF11002D4FFC /* EnglishExercisesView.swift */,
+				3FCF1C6829E7DF33002D4FFC /* HangmanView.swift */,
+				3FCF1C6A29E7DF55002D4FFC /* TrisGameView.swift */,
+				3FCF1C6C29E7DF76002D4FFC /* DrawView.swift */,
+				EC5E00BB29FD37A20019CB64 /* WordMatchImages.xcassets */,
+			);
+			path = Catalogo;
+			sourceTree = "<group>";
+		};
+		3F64C94929E0B20700C5F166 = {
+			isa = PBXGroup;
+			children = (
+				3F64C95429E0B20700C5F166 /* AppTesi1 */,
+				3F64C96529E0B20800C5F166 /* AppTesi1Tests */,
+				3F64C96F29E0B20800C5F166 /* AppTesi1UITests */,
+				3F64C95329E0B20700C5F166 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F64C95329E0B20700C5F166 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F64C95229E0B20700C5F166 /* EduGames.app */,
+				3F64C96229E0B20800C5F166 /* EduGamesTests.xctest */,
+				3F64C96C29E0B20800C5F166 /* EduGamesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F64C95429E0B20700C5F166 /* AppTesi1 */ = {
+			isa = PBXGroup;
+			children = (
+				3F64C95529E0B20700C5F166 /* AppTesi1App.swift */,
+				3F64C95729E0B20700C5F166 /* ContentView.swift */,
+				3F53560D29E17D2E00F7C80C /* QuizView.swift */,
+				3F64C97F29E0B22E00C5F166 /* GifImage.swift */,
+				3F64C98129E0B24900C5F166 /* ProgressBar.swift */,
+				3F64C98329E0B26900C5F166 /* Quiz.swift */,
+				3F64C98529E0B29300C5F166 /* HorizontalDatePicker.swift */,
+				3F64C98729E0B2DA00C5F166 /* QuizHomePageView.swift */,
+				3F7EABE529FA5D630066ADEE /* welcome.gif */,
+				3F1278B129F9212600B50659 /* areaEsercitativa.gif */,
+				3FCF1C7229E7DFE5002D4FFC /* correct.gif */,
+				3FCF1C7329E7DFE5002D4FFC /* wrong.gif */,
+				3F7B270D2A0246DA00C57E4B /* sfondo.png */,
+				3F64C95929E0B20800C5F166 /* Assets.xcassets */,
+				3FCF1C7029E7DFCD002D4FFC /* Images.xcassets */,
+				3FCF1C6E29E7DFBB002D4FFC /* hangman.xcassets */,
+				3F53560F29E1909500F7C80C /* Monster2.png */,
+				3F64C98929E0B2E900C5F166 /* Monster1.png */,
+				3F64C98B29E0B2F000C5F166 /* mostro2.gif */,
+				3F64C95B29E0B20800C5F166 /* Preview Content */,
+				3F1278AF29F914C600B50659 /* RexyGame */,
+				3F1278B029F9150200B50659 /* Catalogo */,
+			);
+			path = AppTesi1;
+			sourceTree = "<group>";
+		};
+		3F64C95B29E0B20800C5F166 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3F64C95C29E0B20800C5F166 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3F64C96529E0B20800C5F166 /* AppTesi1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3F64C96629E0B20800C5F166 /* AppTesi1Tests.swift */,
+			);
+			path = AppTesi1Tests;
+			sourceTree = "<group>";
+		};
+		3F64C96F29E0B20800C5F166 /* AppTesi1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F64C97029E0B20800C5F166 /* AppTesi1UITests.swift */,
+				3F64C97229E0B20800C5F166 /* AppTesi1UITestsLaunchTests.swift */,
+			);
+			path = AppTesi1UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F64C95129E0B20700C5F166 /* EduGames */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F64C97629E0B20800C5F166 /* Build configuration list for PBXNativeTarget "EduGames" */;
+			buildPhases = (
+				3F64C94E29E0B20700C5F166 /* Sources */,
+				3F64C94F29E0B20700C5F166 /* Frameworks */,
+				3F64C95029E0B20700C5F166 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EduGames;
+			productName = AppTesi1;
+			productReference = 3F64C95229E0B20700C5F166 /* EduGames.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F64C96129E0B20800C5F166 /* EduGamesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F64C97929E0B20800C5F166 /* Build configuration list for PBXNativeTarget "EduGamesTests" */;
+			buildPhases = (
+				3F64C95E29E0B20800C5F166 /* Sources */,
+				3F64C95F29E0B20800C5F166 /* Frameworks */,
+				3F64C96029E0B20800C5F166 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F64C96429E0B20800C5F166 /* PBXTargetDependency */,
+			);
+			name = EduGamesTests;
+			productName = AppTesi1Tests;
+			productReference = 3F64C96229E0B20800C5F166 /* EduGamesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F64C96B29E0B20800C5F166 /* EduGamesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F64C97C29E0B20800C5F166 /* Build configuration list for PBXNativeTarget "EduGamesUITests" */;
+			buildPhases = (
+				3F64C96829E0B20800C5F166 /* Sources */,
+				3F64C96929E0B20800C5F166 /* Frameworks */,
+				3F64C96A29E0B20800C5F166 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F64C96E29E0B20800C5F166 /* PBXTargetDependency */,
+			);
+			name = EduGamesUITests;
+			productName = AppTesi1UITests;
+			productReference = 3F64C96C29E0B20800C5F166 /* EduGamesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F64C94A29E0B20700C5F166 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					3F64C95129E0B20700C5F166 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					3F64C96129E0B20800C5F166 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 3F64C95129E0B20700C5F166;
+					};
+					3F64C96B29E0B20800C5F166 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 3F64C95129E0B20700C5F166;
+					};
+				};
+			};
+			buildConfigurationList = 3F64C94D29E0B20700C5F166 /* Build configuration list for PBXProject "EduGames" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F64C94929E0B20700C5F166;
+			productRefGroup = 3F64C95329E0B20700C5F166 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F64C95129E0B20700C5F166 /* EduGames */,
+				3F64C96129E0B20800C5F166 /* EduGamesTests */,
+				3F64C96B29E0B20800C5F166 /* EduGamesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F64C95029E0B20700C5F166 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FCF1C6F29E7DFBB002D4FFC /* hangman.xcassets in Resources */,
+				3F7EABE629FA5D630066ADEE /* welcome.gif in Resources */,
+				3FCF1C7529E7DFE5002D4FFC /* correct.gif in Resources */,
+				3F7B270E2A0246DA00C57E4B /* sfondo.png in Resources */,
+				3F64C98A29E0B2E900C5F166 /* Monster1.png in Resources */,
+				3FCF1C7129E7DFCD002D4FFC /* Images.xcassets in Resources */,
+				3FCF1C7629E7DFE5002D4FFC /* wrong.gif in Resources */,
+				3F1278B229F9212600B50659 /* areaEsercitativa.gif in Resources */,
+				3F53561029E1909500F7C80C /* Monster2.png in Resources */,
+				3F64C98C29E0B2F000C5F166 /* mostro2.gif in Resources */,
+				3F64C95D29E0B20800C5F166 /* Preview Assets.xcassets in Resources */,
+				3F64C95A29E0B20800C5F166 /* Assets.xcassets in Resources */,
+				EC5E00BC29FD37A20019CB64 /* WordMatchImages.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F64C96029E0B20800C5F166 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F64C96A29E0B20800C5F166 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F64C94E29E0B20700C5F166 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F53560E29E17D2E00F7C80C /* QuizView.swift in Sources */,
+				3F3C9F8E29E6BF55001D1AAA /* OpponentsView.swift in Sources */,
+				3FCF1C6D29E7DF76002D4FFC /* DrawView.swift in Sources */,
+				3F3C9F8A29E6BF22001D1AAA /* GroundView.swift in Sources */,
+				3F64C95829E0B20700C5F166 /* ContentView.swift in Sources */,
+				3FCF1C5F29E7DE52002D4FFC /* Principale.swift in Sources */,
+				3F3C9F9429E6BF93001D1AAA /* GameView.swift in Sources */,
+				3FCF1C6529E7DEF9002D4FFC /* GeometryView.swift in Sources */,
+				3F3C9F8829E6BF0F001D1AAA /* CloudsView.swift in Sources */,
+				3F64C98429E0B26900C5F166 /* Quiz.swift in Sources */,
+				3F64C95629E0B20700C5F166 /* AppTesi1App.swift in Sources */,
+				3F3C9F9029E6BF62001D1AAA /* RexyCases.swift in Sources */,
+				3F3C9F8C29E6BF34001D1AAA /* RexyView.swift in Sources */,
+				3F64C98229E0B24900C5F166 /* ProgressBar.swift in Sources */,
+				3F64C98029E0B22E00C5F166 /* GifImage.swift in Sources */,
+				3FCF1C6329E7DED6002D4FFC /* MathExercisesView.swift in Sources */,
+				3F64C98829E0B2DA00C5F166 /* QuizHomePageView.swift in Sources */,
+				3F3C9F9229E6BF77001D1AAA /* OpponentsCases.swift in Sources */,
+				3FCF1C6929E7DF33002D4FFC /* HangmanView.swift in Sources */,
+				3FCF1C6B29E7DF55002D4FFC /* TrisGameView.swift in Sources */,
+				3FCF1C6729E7DF11002D4FFC /* EnglishExercisesView.swift in Sources */,
+				3F64C98629E0B29300C5F166 /* HorizontalDatePicker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F64C95E29E0B20800C5F166 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F64C96729E0B20800C5F166 /* AppTesi1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F64C96829E0B20800C5F166 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F64C97329E0B20800C5F166 /* AppTesi1UITestsLaunchTests.swift in Sources */,
+				3F64C97129E0B20800C5F166 /* AppTesi1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F64C96429E0B20800C5F166 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F64C95129E0B20700C5F166 /* EduGames */;
+			targetProxy = 3F64C96329E0B20800C5F166 /* PBXContainerItemProxy */;
+		};
+		3F64C96E29E0B20800C5F166 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F64C95129E0B20700C5F166 /* EduGames */;
+			targetProxy = 3F64C96D29E0B20800C5F166 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3F64C97429E0B20800C5F166 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F64C97529E0B20800C5F166 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F64C97729E0B20800C5F166 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AppTesi1/Preview Content\"";
+				DEVELOPMENT_TEAM = Y778Y2T2PW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = it.unisa.applefoundationprogram.AppTesi1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F64C97829E0B20800C5F166 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AppTesi1/Preview Content\"";
+				DEVELOPMENT_TEAM = Y778Y2T2PW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = it.unisa.applefoundationprogram.AppTesi1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F64C97A29E0B20800C5F166 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = it.unisa.applefoundationprogram.AppTesi1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EduGames.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EduGames";
+			};
+			name = Debug;
+		};
+		3F64C97B29E0B20800C5F166 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = it.unisa.applefoundationprogram.AppTesi1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EduGames.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EduGames";
+			};
+			name = Release;
+		};
+		3F64C97D29E0B20800C5F166 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = it.unisa.applefoundationprogram.AppTesi1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AppTesi1;
+			};
+			name = Debug;
+		};
+		3F64C97E29E0B20800C5F166 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = it.unisa.applefoundationprogram.AppTesi1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AppTesi1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F64C94D29E0B20700C5F166 /* Build configuration list for PBXProject "EduGames" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F64C97429E0B20800C5F166 /* Debug */,
+				3F64C97529E0B20800C5F166 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F64C97629E0B20800C5F166 /* Build configuration list for PBXNativeTarget "EduGames" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F64C97729E0B20800C5F166 /* Debug */,
+				3F64C97829E0B20800C5F166 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F64C97929E0B20800C5F166 /* Build configuration list for PBXNativeTarget "EduGamesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F64C97A29E0B20800C5F166 /* Debug */,
+				3F64C97B29E0B20800C5F166 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F64C97C29E0B20800C5F166 /* Build configuration list for PBXNativeTarget "EduGamesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F64C97D29E0B20800C5F166 /* Debug */,
+				3F64C97E29E0B20800C5F166 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F64C94A29E0B20700C5F166 /* Project object */;
+}

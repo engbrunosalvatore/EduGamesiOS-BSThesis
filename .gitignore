@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+
+# Xcode user-specific data
+xcuserdata/
+
+# Swift build artifacts
+.build/
+
+# App/debug artifacts
+*.ipa
+*.dSYM
+*.dSYM.zip
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
