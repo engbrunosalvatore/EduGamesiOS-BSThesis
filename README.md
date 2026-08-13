@@ -1,4 +1,4 @@
-# Apple Foundaytion Program - **EduGames** iOS B.S. Thesis Application
+# Apple Foundation Program - **EduGames** iOS B.S. Thesis Application
 
 EduGames is an interactive educational iOS application designed to make learning more engaging for children through quizzes, subject-specific exercises, and mini-games.
 
